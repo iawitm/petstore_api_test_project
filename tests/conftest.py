@@ -14,7 +14,8 @@ from schemas.user_schemas import created_user, deleted_user
 def api_url():
     load_dotenv()
     api_url = os.getenv("PETSTORE_API_URL")
-    return  api_url
+    return api_url
+
 
 @pytest.fixture()
 def create_default_user(api_url):
@@ -29,11 +30,13 @@ def delete_default_user(api_url, create_default_user):
     yield
     UserApiMethods(url=api_url).delete_user_by_username(username, schema=deleted_user)
 
+
 @pytest.fixture()
 def create_default_pet(api_url):
     request_body = load_json("default_pet.json")
     PetApiMethods(url=api_url).create_pet(body=request_body, schema=created_pet)
     yield request_body
+
 
 @pytest.fixture()
 def delete_default_pet(api_url, create_default_pet):

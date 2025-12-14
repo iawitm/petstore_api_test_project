@@ -1,5 +1,4 @@
 import json
-from pathlib import Path
 
 from helpers.path_helper import resource_path
 
