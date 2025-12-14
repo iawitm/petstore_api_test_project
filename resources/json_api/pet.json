@@ -1,0 +1,18 @@
+{
+  "id": 54321,
+  "category": {
+    "id": 1,
+    "name": "dog"
+  },
+  "name": "Jack",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "haunting"
+    }
+  ],
+  "status": "available"
+}

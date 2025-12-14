@@ -1,0 +1,18 @@
+{
+  "id": 5443332222,
+  "category": {
+    "id": 1,
+    "name": "cat"
+  },
+  "name": "Joe",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "cute"
+    }
+  ],
+  "status": "available"
+}
