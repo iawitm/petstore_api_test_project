@@ -40,12 +40,12 @@
 ----
 ### Удаленный запуск в Jenkins
 
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/iawitm_petstore_api_test_project/">_**Ссылка на сборку в Jenkins**_</a>
+> [Ссылка на сборку в Jenkins](https://jenkins.autotests.cloud/job/iawitm_petstore_api_test_project/)
 
 1. Открыть проект
 2. Выбрать пункт `Build with Parameters`
 3. Указать комментарий для отчета в Telegram
-3. Нажать кнопку `Build`
+4. Нажать кнопку `Build`
 
 ![This is an image](/resources/images/readme/jenkins_build.png)
 
